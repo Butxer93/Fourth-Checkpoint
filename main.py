@@ -1,4 +1,6 @@
 from decimal import Decimal
+from math import sqrt
+import math
 
 # Exercise 1: Create a list, tuple, float, integer, decimal, and dictionary.
 
@@ -16,11 +18,11 @@ my_dictionary = {
 
 # Exercise 2: Round your float up.
 
-print(round(my_float))
+print(math.ceil(my_float))
 
 # Exercise 3: Get the square root of your float.
 
-print(my_float ** 2)
+print(sqrt(my_float))
 
 # Exercise 4: Select the first element from your dictionary.
 
@@ -28,8 +30,7 @@ print(list(my_dictionary)[0])
 
 # Exercise 5: Select the second element from your tuple.
 
-first, second, third, fourth = my_tuple
-print(second)
+print(my_tuple[1])
 
 # Exercise 6: Add an element to the end of your list.
 
